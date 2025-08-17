@@ -1,6 +1,6 @@
 {
   "name": "@evalarumbe/deps-experiment-sayhello",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "A dependencies experiment to understand error output.",
   "main": "bin/index.js",
   "bin": {

@@ -6,7 +6,7 @@ function SayHello() {
 
 // allow app to be overridden if plugin is installed
 let app = {
-  SayHi: () => SayHello() // run this by default
+  SayHello: () => SayHello() // run this by default
 }
 
 try {
@@ -16,4 +16,4 @@ catch(e) {
   console.log('no plugins')
 }
 
-console.log(app.SayHi())
+console.log(app.SayHello())
