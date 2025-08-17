@@ -10,7 +10,7 @@ let app = {
 }
 
 try {
-  app = await import ('@evalarumbe/deps-experiment/sayhelloplugin')
+  app = await import ('@evalarumbe/deps-experiment-sayhelloplugin')
 }
 catch(e) {
   console.log('no plugins')
